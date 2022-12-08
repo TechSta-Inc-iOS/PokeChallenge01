@@ -24,6 +24,8 @@
 		3DA73E442913E81800F3D3FC /* PokeChallenge01UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA73E432913E81800F3D3FC /* PokeChallenge01UITestsLaunchTests.swift */; };
 		3DA73E542913FB1B00F3D3FC /* DummyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA73E522913FB1B00F3D3FC /* DummyTableViewCell.swift */; };
 		3DA73E552913FB1B00F3D3FC /* DummyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DA73E532913FB1B00F3D3FC /* DummyTableViewCell.xib */; };
+		978D4E6229355B43005C6B5F /* PokeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978D4E6029355B43005C6B5F /* PokeTableViewCell.swift */; };
+		978D4E6329355B43005C6B5F /* PokeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 978D4E6129355B43005C6B5F /* PokeTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +67,8 @@
 		3DA73E432913E81800F3D3FC /* PokeChallenge01UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokeChallenge01UITestsLaunchTests.swift; sourceTree = "<group>"; };
 		3DA73E522913FB1B00F3D3FC /* DummyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyTableViewCell.swift; sourceTree = "<group>"; };
 		3DA73E532913FB1B00F3D3FC /* DummyTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DummyTableViewCell.xib; sourceTree = "<group>"; };
+		978D4E6029355B43005C6B5F /* PokeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokeTableViewCell.swift; sourceTree = "<group>"; };
+		978D4E6129355B43005C6B5F /* PokeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PokeTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +135,8 @@
 		3DA73E142913E81700F3D3FC = {
 			isa = PBXGroup;
 			children = (
+				978D4E6029355B43005C6B5F /* PokeTableViewCell.swift */,
+				978D4E6129355B43005C6B5F /* PokeTableViewCell.xib */,
 				3DA73E1F2913E81700F3D3FC /* PokeChallenge01 */,
 				3DA73E362913E81700F3D3FC /* PokeChallenge01Tests */,
 				3DA73E402913E81700F3D3FC /* PokeChallenge01UITests */,
@@ -311,6 +317,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				978D4E6329355B43005C6B5F /* PokeTableViewCell.xib in Resources */,
 				3DA73E2D2913E81700F3D3FC /* LaunchScreen.storyboard in Resources */,
 				3DA73E2A2913E81700F3D3FC /* Assets.xcassets in Resources */,
 				3DA73E552913FB1B00F3D3FC /* DummyTableViewCell.xib in Resources */,
@@ -346,6 +353,7 @@
 				3D5B24F02914148E0007726B /* PokeListModel.swift in Sources */,
 				3D5B25022914FD3D0007726B /* URLSession+Extension.swift in Sources */,
 				3D5B24ED2914059B0007726B /* UITableView+Extension.swift in Sources */,
+				978D4E6229355B43005C6B5F /* PokeTableViewCell.swift in Sources */,
 				3D39FC562915064300407530 /* PokeRepository.swift in Sources */,
 				3DA73E542913FB1B00F3D3FC /* DummyTableViewCell.swift in Sources */,
 				3DA73E232913E81700F3D3FC /* SceneDelegate.swift in Sources */,

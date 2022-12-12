@@ -8,15 +8,15 @@
 import UIKit
 
 final class PokeTableViewCell: UITableViewCell {
-    @IBOutlet weak var numberLabel: UILabel!
-    @IBOutlet weak var nameLabel: UILabel!
-    @IBOutlet weak var pokeImageView: UIImageView!
-    @IBOutlet weak var hpLabel: UILabel!
-    @IBOutlet weak var attackLabel: UILabel!
-    @IBOutlet weak var defenseLabel: UILabel!
-    @IBOutlet weak var specialAttackLabel: UILabel!
-    @IBOutlet weak var specialDefenseLabel: UILabel!
-    @IBOutlet weak var speedLabel: UILabel!
+    @IBOutlet private weak var numberLabel: UILabel!
+    @IBOutlet private weak var nameLabel: UILabel!
+    @IBOutlet private weak var pokeImageView: UIImageView!
+    @IBOutlet private weak var hpLabel: UILabel!
+    @IBOutlet private weak var attackLabel: UILabel!
+    @IBOutlet private weak var defenseLabel: UILabel!
+    @IBOutlet private weak var specialAttackLabel: UILabel!
+    @IBOutlet private weak var specialDefenseLabel: UILabel!
+    @IBOutlet private weak var speedLabel: UILabel!
     
     func configure(pokemon: Pokemon) {
         numberLabel.text = "No:\(pokemon.id)"

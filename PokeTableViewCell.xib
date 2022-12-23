@@ -10,11 +10,11 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="121" id="KGk-i7-Jjw" customClass="PokeTableViewCell" customModule="PokeChallenge01" customModuleProvider="target">
-            <rect key="frame" x="0.0" y="0.0" width="244" height="121"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="124" id="KGk-i7-Jjw" customClass="PokeTableViewCell" customModule="PokeChallenge01" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="244" height="124"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
-                <rect key="frame" x="0.0" y="0.0" width="244" height="121"/>
+                <rect key="frame" x="0.0" y="0.0" width="244" height="124"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="jb7-E4-HEv">
@@ -35,52 +35,56 @@
                             </label>
                         </subviews>
                     </stackView>
-                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="kGH-QH-mVs">
-                        <rect key="frame" x="35" y="39" width="134" height="77"/>
+                    <stackView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="270" horizontalCompressionResistancePriority="770" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="kGH-QH-mVs">
+                        <rect key="frame" x="20" y="39" width="178.66666666666666" height="80"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2Zh-ZY-V1R" userLabel="Poke Image View">
-                                <rect key="frame" x="0.0" y="0.0" width="35.333333333333336" height="77"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="2Zh-ZY-V1R" userLabel="Poke Image View">
+                                <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="QrT-AE-QB9"/>
+                                    <constraint firstAttribute="width" constant="80" id="QwL-IX-6EC"/>
+                                </constraints>
                             </imageView>
-                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="izt-bf-dHD">
-                                <rect key="frame" x="43.333333333333343" y="0.0" width="41.333333333333343" height="77"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="300" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" axis="vertical" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="izt-bf-dHD">
+                                <rect key="frame" x="88" y="5" width="41.333333333333343" height="70"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tiy-yK-nro" userLabel="Hp Label">
-                                        <rect key="frame" x="0.0" y="0.0" width="41.333333333333336" height="20.333333333333332"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="770" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.29999999999999999" translatesAutoresizingMaskIntoConstraints="NO" id="tiy-yK-nro" userLabel="Hp Label">
+                                        <rect key="frame" x="0.0" y="0.0" width="41.333333333333336" height="18"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FGR-6R-plW" userLabel="Attack Label">
-                                        <rect key="frame" x="0.0" y="28.333333333333329" width="41.333333333333336" height="20.333333333333329"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="260" horizontalCompressionResistancePriority="780" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.29999999999999999" translatesAutoresizingMaskIntoConstraints="NO" id="FGR-6R-plW" userLabel="Attack Label">
+                                        <rect key="frame" x="0.0" y="26" width="41.333333333333336" height="18"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pu6-kO-pNC" userLabel="Defense Label">
-                                        <rect key="frame" x="0.0" y="56.666666666666679" width="41.333333333333336" height="20.333333333333336"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="260" horizontalCompressionResistancePriority="770" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.29999999999999999" translatesAutoresizingMaskIntoConstraints="NO" id="pu6-kO-pNC" userLabel="Defense Label">
+                                        <rect key="frame" x="0.0" y="52" width="41.333333333333336" height="18"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
                             </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="8Op-Gb-ynP">
-                                <rect key="frame" x="92.666666666666657" y="0.0" width="41.333333333333343" height="77"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="790" axis="vertical" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="8Op-Gb-ynP">
+                                <rect key="frame" x="137.33333333333334" y="5" width="41.333333333333343" height="70"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OUC-S4-gi3" userLabel="Special Attack Label">
-                                        <rect key="frame" x="0.0" y="0.0" width="41.333333333333336" height="20.333333333333332"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="780" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.29999999999999999" translatesAutoresizingMaskIntoConstraints="NO" id="OUC-S4-gi3" userLabel="Special Attack Label">
+                                        <rect key="frame" x="0.0" y="0.0" width="41.333333333333336" height="18"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vsq-CR-q8R" userLabel="Special Defense Label">
-                                        <rect key="frame" x="0.0" y="28.333333333333329" width="41.333333333333336" height="20.333333333333329"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.29999999999999999" translatesAutoresizingMaskIntoConstraints="NO" id="Vsq-CR-q8R" userLabel="Special Defense Label">
+                                        <rect key="frame" x="0.0" y="26" width="41.333333333333336" height="18"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OZv-bN-4Lz" userLabel="Speed Label">
-                                        <rect key="frame" x="0.0" y="56.666666666666679" width="41.333333333333336" height="20.333333333333336"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.29999999999999999" translatesAutoresizingMaskIntoConstraints="NO" id="OZv-bN-4Lz" userLabel="Speed Label">
+                                        <rect key="frame" x="0.0" y="52" width="41.333333333333336" height="18"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -88,16 +92,24 @@
                                 </subviews>
                             </stackView>
                         </subviews>
+                        <constraints>
+                            <constraint firstItem="izt-bf-dHD" firstAttribute="top" secondItem="kGH-QH-mVs" secondAttribute="top" constant="5" id="78S-eZ-o9w"/>
+                            <constraint firstItem="8Op-Gb-ynP" firstAttribute="top" secondItem="kGH-QH-mVs" secondAttribute="top" constant="5" id="RxJ-Sw-hC2"/>
+                            <constraint firstItem="izt-bf-dHD" firstAttribute="top" secondItem="kGH-QH-mVs" secondAttribute="top" constant="5" id="Vsl-Gf-C1o"/>
+                            <constraint firstItem="8Op-Gb-ynP" firstAttribute="top" secondItem="kGH-QH-mVs" secondAttribute="top" constant="5" id="a5Z-aJ-7gV"/>
+                            <constraint firstAttribute="bottom" secondItem="izt-bf-dHD" secondAttribute="bottom" constant="5" id="twV-Kh-4Id"/>
+                            <constraint firstAttribute="bottom" secondItem="8Op-Gb-ynP" secondAttribute="bottom" constant="5" id="x6X-5j-dsf"/>
+                        </constraints>
                     </stackView>
                 </subviews>
                 <constraints>
-                    <constraint firstItem="kGH-QH-mVs" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="90" id="AyL-1p-fuu"/>
-                    <constraint firstItem="kGH-QH-mVs" firstAttribute="top" secondItem="jb7-E4-HEv" secondAttribute="bottom" constant="5" id="Q4Y-E7-Vfi"/>
-                    <constraint firstItem="jb7-E4-HEv" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="UCp-3M-bpb"/>
-                    <constraint firstAttribute="bottom" secondItem="kGH-QH-mVs" secondAttribute="bottom" constant="5" id="cUW-cM-zRg"/>
-                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="kGH-QH-mVs" secondAttribute="trailing" constant="20" id="jEe-hh-T5Y"/>
-                    <constraint firstItem="jb7-E4-HEv" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="m0w-zz-tu9"/>
-                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="jb7-E4-HEv" secondAttribute="trailing" constant="20" id="uIN-UI-fqd"/>
+                    <constraint firstItem="kGH-QH-mVs" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="Cez-jO-ooR"/>
+                    <constraint firstItem="kGH-QH-mVs" firstAttribute="top" secondItem="jb7-E4-HEv" secondAttribute="bottom" constant="5" id="IaL-By-gDD"/>
+                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="kGH-QH-mVs" secondAttribute="trailing" constant="20" id="LmL-EM-CqO"/>
+                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="jb7-E4-HEv" secondAttribute="trailing" constant="20" id="cxi-np-3Sx"/>
+                    <constraint firstAttribute="bottom" secondItem="kGH-QH-mVs" secondAttribute="bottom" constant="5" id="klc-QZ-Zxv"/>
+                    <constraint firstItem="jb7-E4-HEv" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="mBL-bG-RiN"/>
+                    <constraint firstItem="jb7-E4-HEv" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="mP2-EE-Xe6"/>
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
@@ -112,7 +124,7 @@
                 <outlet property="specialDefenseLabel" destination="Vsq-CR-q8R" id="rU6-t3-HE8"/>
                 <outlet property="speedLabel" destination="OZv-bN-4Lz" id="3CA-QB-Htj"/>
             </connections>
-            <point key="canvasLocation" x="-1081" y="-802"/>
+            <point key="canvasLocation" x="-1163.3587786259541" y="-858.45070422535218"/>
         </tableViewCell>
     </objects>
 </document>

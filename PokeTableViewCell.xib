@@ -124,7 +124,7 @@
                 <outlet property="specialDefenseLabel" destination="Vsq-CR-q8R" id="rU6-t3-HE8"/>
                 <outlet property="speedLabel" destination="OZv-bN-4Lz" id="3CA-QB-Htj"/>
             </connections>
-            <point key="canvasLocation" x="-1163.3587786259541" y="-858.45070422535218"/>
+            <point key="canvasLocation" x="-976" y="-935"/>
         </tableViewCell>
     </objects>
 </document>
